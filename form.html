@@ -8,6 +8,45 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <header>
+        <img src="https://yt3.ggpht.com/ytc/AKedOLT3v89U-2iVX-78hqPk1-lBIduTcljrKLIH9YJg1A=s900-c-k-c0x00ffffff-no-rj" alt="" width="5%">
+    </header>
+    <form>
+        <!-- Gender -->
+        <p>You are a....</p>
+        <input type="radio" id="male" name="gender">
+        <label for="male">Male</label>
+        <br>
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+
+        <!-- Interests -->
+        <p>Who is interested in...</p>
+        <input type="checkbox" id="web">
+        <label for="web">Web development</label>
+        <br>
+        <input type="checkbox" id="photoshop">
+        <label for="photoshop">Photoshop</label>
+        <br>
+        <input type="checkbox" id="madonna">
+        <label for="madonna">Singing Madonna Songs</label>
+
+        <!-- Contact details -->
+        <fieldset>
+            <legend>Contact Info</legend>
+            <input type="email" placeholder="Email" required>
+            <span class="tick"></span>
+            <input type="telephone" placeholder="Phone number" required>
+            <span class="tick"></span>
+        </fieldset>
+
+        <!-- Prefered -->
+        <p>How would you like to be contacted?</p>
+        <select>
+            <option>By email</option>
+            <option>By telephone</option>
+        </select>
+        <input type="submit" value="Become a ninja">
+    </form>
 </body>
 </html>
